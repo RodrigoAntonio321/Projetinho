@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Projetinho</title>
+</head>
+<body>
+    <script>
+        alert('Olá, a função deste site é te mostrar os atributos e como você jogara os dados para cada um deles')
+        alert('Ok, começando pelo simples, você tem 4 pontos para destribuir entre 5 atributos : Força, Agilidade, Intelecto, Presença e Vigor')
+        alert('Você pode colocar mais de um ponto em cada atributo e também pode deixar um status negativo para ter um ponto a mais em algum')
+        var força = parseInt (prompt('O quanto é sua força'))
+        var agi = parseInt (prompt('O quanto é sua agilidade'))
+        var int = parseInt (prompt('O quanto é sua intelecto'))
+        var pre = parseInt (prompt('O quanto é sua presença'))
+        var vig = parseInt (prompt('O quanto é sua vigor'))
+        var df = força + 1
+        var da = agi + 1
+        var di = int + 1
+        var dp = pre + 1
+        var dv = vig + 1
+
+
+        document.write('<h1>Olá sua Força é  ' + força   +   ' e você jogara '  +   df + ' dados para fazer testes com estea atributo</h1>')
+        document.write('<h1>Olá sua Agi é  ' + agi  +   ' e você jogara ' + da +    ' dados para fazer testes com estea atributo</h1>')
+        document.write('<h1>Olá sua Intelecto é  ' + int   +   ' e você jogara ' + di +    ' dados para fazer testes com estea atributo</h1>')
+        document.write('<h1>Olá sua Presença é  ' + pre   +   ' e você jogara ' + dp +    ' dados para fazer testes com estea atributo</h1>')
+        document.write('<h1>Olá sua Vigor é  ' + vig   +   ' e você jogara ' + dv +    ' dados para fazer testes com estea atributo</h1>')
+    
+    </script>  
+
+<p>Caso algum valor seja negativo, você jogara 1 dado mais o valor (desconsiderando ele negativo) e então pegara o PIOR valor</p>
+
+
+
+
+
+
+</body>
+</html>
